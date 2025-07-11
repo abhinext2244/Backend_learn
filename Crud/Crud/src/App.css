@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    color:black;
+    line-height: 1.6;
+    padding:20px;
+    margin:0px;
+}
+.app{
+    max-width: 600px;
+    margin:0 auto;
+    padding:20px;
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    font-size:2rem;
+    color:blue;
+}
+.search-input,.Todo-form-input{
+width:calc(100%-120px);
+padding:5px;
+margin: 5px;
+border:1px solid #ccc;
+border-radius: 10px;
+font-size: 1.5rem;
+}
+.Todo-form{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(143, 43, 43);
+    padding:10px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    border-radius:5px;
+}
+.list{
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+.Todo-item{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.Todo-item span{
+    flex-grow: 1;
+    text-align: left;
+}
+.Todo-item div{
+    display: flex;
+    gap:10px;
+}
+.Todo-item button{
+    background: none;
+    border:none;
+    cursor: pointer;
+    font-size: 1.6em;
+}
